@@ -1,0 +1,5 @@
+"""No help needed thank you"""
+from .helpless import helpless
+
+def setup(bot):
+    bot.add_cog(helpless())
